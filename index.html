@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de apresentação do perfil artístico de Khakha Rodrigues. Explore meu portfólio e entre em contato.">
+    <title>Khakha Rodrigues - Artista</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="#hero">Início</a>
+            <a href="#about">Sobre Mim</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#testimonials">Depoimentos</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Seção Hero -->
+    <section id="hero">
+        <div class="hero-overlay">
+            <div class="hero-text">
+                <h1>Khakha Rodrigues</h1>
+                <h4>khakha.music@gmail.com</h4>
+                <h2>Bem-vindo ao meu mundo artístico</h2>
+                <p>Descubra minhas criações e deixe-se inspirar.</p>
+            </div>
+        </div>
+        <img src="public/hero.png" alt="Imagem de uma pessoa ao fundo de um estúdio com microfone">
+    </section>
+
+    <!-- Sobre Mim -->
+    <section id="about">
+        <h2>Sobre Mim</h2>
+        <p>Sou Kakha Rodrigues, um compositor, produtor, guitarrista. Meu objetivo é me expressar através da música e encontrar pessoas que se identifiquem com as canções que crio.</p>
+        <p>Desde 2000, venho buscando uma forma de expor meu trabalho com perfeccionismo, e agora, com as tecnologias de inteligência artificial, fui capaz de compor e musicalizar minhas letras, entregando algo realmente de qualidade.</p>
+    </section>
+
+    <!-- Portfólio -->
+    <section id="portfolio">
+        <h2>Lançamento</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="obra1.jpg" alt="Unspoken Affection">
+                <p>Unspoken Affection</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contact">
+        <h2>Contato</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <p>Siga-me nas redes sociais:</p>
+        <ul>
+            <li><a href="[Link para Facebook]">Facebook</a></li>
+            <li><a href="[Link para Instagram]">Instagram</a></li>
+            <li><a href="[Link para Twitter]">Twitter</a></li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Khakha Rodrigues. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
