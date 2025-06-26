@@ -13,6 +13,21 @@ body {
     line-height: 1.6;
 }
 
+body a{
+    text-decoration: none;
+    color:#312f2f;
+    padding:15px 50px;
+    border-radius:10px;
+    font-weight: 700;
+}
+
+body a:hover{
+    font-weight: 700;
+    background-color: #dbcaaf;
+    color:#000;
+    
+}
+
 /* Header */
 header {
     background-color: #282828;
